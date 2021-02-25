@@ -30,14 +30,6 @@ public class CheckPermutationCh1_02 {
     }
 
     return permutationsSupplier.apply(first).contains(second);
-
-  //  List<String> firstWordsPermutations = getPermutationsIter(first);
-/*    for (String word : firstWordsPermutations) {
-      if (word.equals(second)) {
-        return true;
-      }
-    }
-    return false;*/
   }
 
   // To be used as an argument for isPermutation_bruteForceGen, to iteratively generate permutations of a given string
